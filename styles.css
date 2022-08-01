@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a {
+    color: rgb(27, 40, 76);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(6, 6, 162);
+}
+
+a:visited {
+    color: rgb(18, 22, 115);
+}
+
+.photo {
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 4px 5px 0px  rgb(7, 6, 6);
+}
+
+.info p {
+    color: rgb(37, 47, 35);
+    text-decoration: underline;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+.info {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.site {
+    background-color: rgb(214, 218, 222);
+    border-radius: 10px;
+    padding: 20px;
+    border: 5px silver double;
+    margin: 15px;
+}
+
+.blok {
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    background-color:rgb(221, 222, 221);
+    border-radius: 15px;
+    border: 5px solid rgb(215, 214, 214);
+    margin: 15px;
+}
+
+.blok h3 {
+    margin-bottom: 10px;
+}
+
+.photo3 img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    margin-left: 20px;
+    max-width: 100%;
+    height: 178px;
+}
+
+.list {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table th {
+    padding-bottom: 20px;
+}
+
+.table td:nth-child(3),.table td:nth-child(2){
+    color: rgb(4, 13, 56);
+}
+
+.table tr:nth-child(odd) {
+    background-color: rgb(197, 197, 197);
+}
+
+.imge {
+    border-radius: 15px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.link-list li {
+    font-size: 15px; 
+    margin-bottom: 8px; 
+}
+
+.bur {
+    list-style: url(burger.png) ;
+}
+
+.sush {
+    list-style: url(sushi.png);
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width:100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(155, 168, 169);
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 10px;
+    outline-color: rgb(0, 0, 0);
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.tableimg img{
+    width: 100%;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    background-color: black;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+.box {
+    position: fixed;
+    bottom: 50%;
+    right: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(171, 122, 216);
+    display: table;
+    
+}
+
+.box a {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 15px;
+}
